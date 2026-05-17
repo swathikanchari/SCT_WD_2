@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#display {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#start { background: green; color: white; }
+#pause { background: orange; color: white; }
+#reset { background: red; color: white; }
+#lap { background: blue; color: white; }
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    margin: 8px;
+    font-size: 20px;
+}
